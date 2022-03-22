@@ -1,3 +1,5 @@
+#Unified template without variables to provide a POC environment for ELK stack
+
 terraform {
   required_providers {
     aws = {
