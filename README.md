@@ -9,3 +9,5 @@
 > <h6>Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.</h6>
 - Kibana
 > <h6>Kibana is a proprietary data visualization dashboard software for Elasticsearch, whose open source successor in OpenSearch is OpenSearch Dashboards.</h6>
+
+![elastic-blog-banner](https://user-images.githubusercontent.com/35708820/159497026-067c8978-45a7-4290-982a-d36195ded920.png)
