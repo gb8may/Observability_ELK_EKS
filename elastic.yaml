@@ -86,7 +86,7 @@ spec:
                 - observability
       serviceAccountName: elasticsearch
       containers:
-      - image: elasticsearch:6.8.4
+      - image: elasticsearch:8.0.1
         name: elasticsearch
         ports:
         - containerPort: 9200
