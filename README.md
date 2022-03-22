@@ -10,4 +10,6 @@
 - Kibana
 > <h6>Kibana is a proprietary data visualization dashboard software for Elasticsearch, whose open source successor in OpenSearch is OpenSearch Dashboards.</h6>
 
+###### Log4Shell CVE not detected
+
 ![elastic-blog-banner](https://user-images.githubusercontent.com/35708820/159497026-067c8978-45a7-4290-982a-d36195ded920.png)
