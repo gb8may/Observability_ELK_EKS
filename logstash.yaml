@@ -13,6 +13,15 @@ spec:
       labels:
         app: logstash
     spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: role
+                operator: In
+                values:
+                - observability
       containers:
       - name: logstash
         image: docker.elastic.co/logstash/logstash:6.3.0

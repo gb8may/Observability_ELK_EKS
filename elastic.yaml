@@ -75,6 +75,15 @@ spec:
       labels:
         app: elasticsearch
     spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: role
+                operator: In
+                values:
+                - observability
       serviceAccountName: elasticsearch
       containers:
       - image: elasticsearch:6.8.4
