@@ -26,7 +26,7 @@ spec:
                 - observability
       containers:
       - name: kibana
-        image: docker.elastic.co/kibana/kibana-oss:8.0.1
+        image: docker.elastic.co/kibana/kibana-oss:6.8.22 #Log4Shell CVE not detected by DockerHub
         env:
           - name: ELASTICSEARCH_URL
             value: http://elasticsearch-svc:9200

@@ -24,7 +24,7 @@ spec:
                 - observability
       containers:
       - name: logstash
-        image: docker.elastic.co/logstash/logstash:8.0.1
+        image: docker.elastic.co/logstash/logstash:6.8.22 #Log4Shell CVE not detected by DockerHub
         ports:
         - containerPort: 5044
         volumeMounts:

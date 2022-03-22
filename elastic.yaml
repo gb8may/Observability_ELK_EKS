@@ -86,7 +86,7 @@ spec:
                 - observability
       serviceAccountName: elasticsearch
       containers:
-      - image: elasticsearch:8.0.1
+      - image: elasticsearch:6.8.2 #Log4Shell CVE not detected by DockerHub2
         name: elasticsearch
         ports:
         - containerPort: 9200
