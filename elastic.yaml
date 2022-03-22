@@ -37,7 +37,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: elasticsearch
-  namespace: kube-system
+  namespace: observability
   apiGroup: ""
 roleRef:
   kind: ClusterRole
